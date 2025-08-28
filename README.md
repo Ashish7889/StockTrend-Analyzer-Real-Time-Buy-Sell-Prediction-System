@@ -33,6 +33,8 @@ An AI-powered tool for analyzing and predicting stock trends using technical ind
    ```bash
    streamlit run stock_trend_analyzer.py
    ```
+   If still you are facing any issues like data exhange not found then try to update the yahoo finance in the command prompt 
+make sure you are using yahoo finance latest version only then it works
 
 ### Streamlit Cloud Deployment
 1. Push your code to GitHub
