@@ -35,6 +35,7 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # Logs
 *.log
@@ -42,3 +43,30 @@ ENV/
 # Local development
 .DS_Store
 Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.model
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Project files
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.manifest
+*.spec
