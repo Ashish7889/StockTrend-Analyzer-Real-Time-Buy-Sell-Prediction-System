@@ -9,11 +9,41 @@ An AI-powered tool for analyzing and predicting stock trends using technical ind
 - Real-time Stock Data Fetching
 - Interactive Visualization
 
-## Setup Instructions
+## 🚀 Deployment Instructions
+
+### Local Development
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set your Alpha Vantage API key in the application
-4. Run the app: `streamlit run stock_trend_analyzer.py`
+   ```bash
+   git clone https://github.com/Ashish7889/StockTrend-Analyzer-Real-Time-Buy-Sell-Prediction-System.git
+   cd StockTrend-Analyzer-Real-Time-Buy-Sell-Prediction-System
+   ```
+2. Create and activate virtual environment
+   ```bash
+   python -m venv venv
+   # On Windows:
+   .\venv\Scripts\activate
+   # On macOS/Linux:
+   # source venv/bin/activate
+   ```
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the app locally
+   ```bash
+   streamlit run stock_trend_analyzer.py
+   ```
+
+### Streamlit Cloud Deployment
+1. Push your code to GitHub
+2. Go to [Streamlit Cloud](https://share.streamlit.io/)
+3. Click "New app" and select your repository
+4. Set the main file path to `stock_trend_analyzer.py`
+5. Click "Deploy!"
+
+### Required Environment Variables
+Set these in your Streamlit Cloud settings:
+- `ALPHA_VANTAGE_API_KEY`: Your Alpha Vantage API key
 
 ## Technical Indicators
 - RSI (Relative Strength Index)
